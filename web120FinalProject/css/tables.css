@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: left;
+    margin-left:25px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 50px
+}
+
+.column {
+    width: 40%;
+}
+
+th {
+    border-bottom: 1px solid #ccc;
+    border-bottom: 3px solid #ddd;
+    text-align: left;
+}
+td, tr {
+    border-bottom: 1px solid #ccc;
+    text-align: right;
+    padding: 2px;
+  }
+tr:hover {
+    background-color: #ebeffd;
+}
+
+/* add table styles */
+aside.address {
+    width: 40%;
+    padding-right: 0;
+    font-family: 'Work Sans', sans-serif;
+    margin:auto;
+    align-self: center;
+}
+
+header {
+	padding-bottom: .2em;
+	border-bottom: 1px solid gray;
+}
+aside {
+    width: 30%;
+    align-self: center;
+	padding: 1em;
+	background:white;
+	color: black;
+	margin: 5em;
+    font-family: 'Work Sans', sans-serif;
+    font-family: 'Taviraj', serif;
+    font-size: 2em;
+}
+
+p.aside {
+    align-self: center;
+    text-align: center;
+    font-size: 1em;
+    width: 300px;
+}
+
+footer {
+	border-top: 1px solid gray;
+	text-align: center;
+	font-size: .8em;
+	line-height: 4em;
+	margin-top: 1em;
+}
+blockquote {
+	font-style: italic;
+}
+.flowRight {
+	float: right;
+	margin-left: 5px;
+}
+.flowLeft {
+	float: left;
+	margin-right: 10px;
+}
+
+/* LAPTOP 1024*/
+@media all and (max-width:1500px) {
+    .column {
+        width: 60%;
+    }
+
+    aside.address{
+    margin: auto;
+    width: 32%;
+    padding: 0;
+    align-self: center;
+    margin-top: 1%;
+ }
+    
+    p.aside {
+    margin: 0;
+    font-family: 'Work Sans',sans-serif;
+    font-size: .75em
+    }
+}
+
+/* LAPTOP 1024*/
+@media all and (max-width:1050px) {
+  
+    aside.address{
+    margin: auto;
+    padding: 0;
+    align-self: center;
+    margin-top: 1%;
+ }
+    
+    p.aside {
+    margin: 0;
+    font-family: 'Work Sans',sans-serif;
+    font-size: .75em
+    }
+}
+
+/* TABLET 768*/
+@media all and (max-width:800px) {
+    .column {
+        width: 45%;
+    }
+
+    aside.address{
+        margin: auto;
+        padding: 0;
+        align-self: center;
+        margin-top: 1%;
+        width: 40%;
+ }
+    
+    p.aside {
+        margin: 0;
+        font-family: 'Work Sans',sans-serif;
+    }
+}
+/* PHONE 425 */
+@media all and (max-width:500px) {
+    div.wrapper {
+        width: 100%;
+        align-content: center;
+        text-align: center;
+        margin: 0;
+    }
+    
+    .column {
+        width: 100%;
+    
+    }
+    
+    h1 {
+        text-align: center;
+        font-size: 1.5em;
+        margin-left: 0;
+    }
+    
+    table {
+        max-width: 100%;
+        margin: 0px;
+    }
+    
+    aside.address {
+        width: 100%;
+        padding: 0;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 1.5em;
+        border: 0;
+        margin: 0;
+        text-align: center;
+        height: auto;
+    }
+    p.aside {
+        width: auto;
+        margin: 0;
+        }
+ }   
