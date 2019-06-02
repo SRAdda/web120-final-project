@@ -1,9 +1,8 @@
 <?php include 'nello-config.php' ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
- <head>
+<head>
 
 <title><?=$title?></title>
   <meta name="robots" content="noindex,nofollow" />
@@ -12,7 +11,10 @@
   <link rel="stylesheet" href="css/nello.css" />
   <link rel="stylesheet" href="css/nav.css"  />
    <!-- jQuery -->
-  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+   <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
   <!-- MenuMaker Plugin -->
   <script src="https://s3.amazonaws.com/menumaker/menumaker.min.js"></script>
   <link rel="stylesheet" href="css/lightbox.css" />

@@ -17,7 +17,7 @@ switch(THIS_PAGE)
 {
     case 'nelloindex.php':
         $title = "Nello";
-        $PageID = "<a href='nelloindex.php'>HAIR & MAKEUP DESIGN<a href='tel:012064410304'> &#45; 206.441.0304</a>";
+        $PageID = "<a href='nelloindex.php'>HAIR & MAKEUP DESIGN</a><a href='tel:012064410304'> &#45; 206.441.0304</a>";
     break;
 
     case 'profile.php':
